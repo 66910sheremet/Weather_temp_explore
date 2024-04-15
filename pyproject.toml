@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "weather-temp-explore"
+version = "0.1.0"
+description = "Program for exploring predicting and visualisation some temp parameters"
+authors = ["sheremet66910"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openpyxl = "^3.1.2"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
